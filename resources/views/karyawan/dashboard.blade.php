@@ -56,7 +56,7 @@
             @endif
             <div class="mt-5 text-center">
                 <a href="{{ route('karyawan.absensi.form') }}"
-                   class="w-full sm:w-auto inline-block px-6 py-3 bg-teal-500 hover:bg-teal-600 text-white font-semibold rounded-lg shadow-md transition duration-300">
+                   class="w-full sm:w-auto inline-block px-6 py-3 bg-teal-500 hover:bg-teal-600 text-[#1d1d1d1d] transition-all ease-in-out hover:text-white font-semibold rounded-lg shadow-md duration-1000">
                     Lakukan Presensi Sekarang
                 </a>
             </div>
@@ -111,7 +111,7 @@
     </div>
 
     {{-- Pengumuman atau Informasi Penting dari Admin (Jika Ada) --}}
-    {{--
+    
     <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-md shadow-sm">
         <div class="flex">
             <div class="flex-shrink-0">
@@ -126,7 +126,7 @@
             </div>
         </div>
     </div>
-    --}}
+
 
 </div>
 @endsection

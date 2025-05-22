@@ -27,7 +27,7 @@
         <form action="{{ route('karyawan.absensi.masuk') }}" method="POST">
             @csrf
             <button type="submit"
-                    class="px-6 py-3 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75 disabled:opacity-50"
+                    class="px-6 py-3 bg-green-500 text-[#1d1d1d] font-semibold rounded-lg shadow-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75 disabled:opacity-50"
                     {{ $sudahMasuk ? 'disabled' : '' }}>
                 Presensi Masuk
             </button>

@@ -6,7 +6,7 @@
 <div class="mb-6 flex justify-between items-center">
     <h1 class="text-2xl font-semibold text-gray-700">Daftar Karyawan</h1>
     <a href="{{ route('admin.karyawan.create') }}"
-       class="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 focus:outline-none focus:bg-green-600">
+       class="px-4 py-2 bg-green-500 text-gray-500 rounded-md hover:bg-green-600 focus:outline-none focus:bg-green-600">
         Tambah Karyawan
     </a>
 </div>
